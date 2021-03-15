@@ -16,6 +16,7 @@
     place-items: center;
     display: flex;
     border: 1px solid black;
+    margin-left: 5%;
     
     
 }
@@ -23,15 +24,16 @@
 .gegevensmeter {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: aqua;
+    background-color:#57FFD1;
     
     justify-content: center;
     place-items: center;
     display: flex;
     padding-top: 0%;
     
-    height: 50%;
+    height: 70%;
     margin-bottom: 71%;
+    margin-left: 5%;
 
 }
 .weerbalk {
@@ -62,7 +64,7 @@
     margin: 4px;
     margin-left: 40%;
     width: 70%;
-    height: 60vh;
+    height: 50vh;
 
 }
 .tempbin-balk{
@@ -87,7 +89,7 @@
     place-items: center;
     display: flex;
     margin: 4px;
-    height: 60vh;
+    height: 50vh;
     width: 65%;
     margin-left: 30%;
 }
