@@ -65,7 +65,18 @@
     height: 60vh;
 
 }
-
+.tempbin-balk{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid black;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    width: 65%;
+    margin-left: 30%;
+}
 
 .temperatuurbinnen {
     grid-column-start: 3;
