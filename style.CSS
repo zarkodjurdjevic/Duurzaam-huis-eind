@@ -137,6 +137,12 @@
     margin-left: 16%;
     margin-right: 3%;
     margin-top: -10%;
-    height: 8vh;
+    
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    display: flex;
 }
+
+
 
