@@ -101,4 +101,30 @@
 
 }
 
+.kosten{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #72E7FF;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    height: 70%;
+    font-size: 140%;
+    margin-top: -20%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.kosten1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    /*grid-row-start: 4;
+    grid-row-end: 5;*/
+    background-color: red;
+    height: 470%;
+    
+    
+
+}
 
