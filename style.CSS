@@ -128,3 +128,15 @@
 
 }
 
+.tijd{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-left: 16%;
+    margin-right: 3%;
+    margin-top: -10%;
+    height: 8vh;
+}
+
