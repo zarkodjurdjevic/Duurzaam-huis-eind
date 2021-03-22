@@ -84,7 +84,7 @@
     grid-column-start: 3;
     grid-column-end: 4;
     background-color: rgb(255, 0, 0);
-    margin: px;
+    
     justify-content: center;
     place-items: center;
     display: flex;
@@ -98,6 +98,11 @@
     width: 100%;
     background-color: #57FFD1;
     height: 150%;
+    border: 30px solid  #57FFD1 ;
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -8px;
+   
 
 }
 
