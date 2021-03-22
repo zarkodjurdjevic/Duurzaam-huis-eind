@@ -150,6 +150,23 @@
     border: 3px solid black ;
 }
 
+#eenheid {
+    font-size: .3rem;
+}
+
+.temp {
+    font-size: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+    fill: #fff;
+}
+
+#thermostaat{
+    
+    margin-top: 65%;
+    
+}
+
+ 
 
 
 
