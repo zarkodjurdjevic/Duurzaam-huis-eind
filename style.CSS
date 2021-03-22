@@ -136,18 +136,20 @@
 .tijd{
     grid-row-start: 3;
     grid-row-end: 4;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     grid-column-start: 2;
     grid-column-end: 4;
     margin-left: 16%;
     margin-right: 3%;
     margin-top: -10%;
-    
+    height: 360%;
     text-align: center;
     place-items: center;
     justify-content: center;
     display: flex;
+    border: 3px solid black ;
 }
+
 
 
 
