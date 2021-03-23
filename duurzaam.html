@@ -8,27 +8,27 @@
     <title>dashboard</title>
 </head>
 <body>
-    <div style="background-color: aqua; height: 50%; width: 100%;">
-        <h1 class="blauwbalk">begin stuk duurzaam-huis opdracht</h1> 
-    </div>
+    
+     <h1 class="blauwbalk">begin stuk duurzaam-huis opdracht</h1> 
+
     <div id="dashboard">
         <div class="item meterstanden">meterstanden</div>
         <div class="gegevensmeter">gegevens meterstanden</div>
         <div class="weerbalk">weerbalk</div>
         <div class="item weer">weer</div>
-        <div class="tempbin-balk">balk temptratuur binnen</div>
+        <div class="tempbin-balk">temperatuur binnen</div>
         <div class="item temperatuurbinnen">
-            <h1>temperatuur met SVG weergeven</h1>
+            
             
             <svg width="100%" height="100%" viewBox="0 0 42 42">
-                <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgba(200,200,200,0.5)" stroke-width="1"></circle>
-                <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="royalblue" stroke-width="1" stroke-dasharray="75 25" stroke-dashoffset="75" id="cirkelBoog"></circle>
+                <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgba(200,200,200,0.5)" stroke-width="3"></circle>
+                <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgb(94, 233, 94)" stroke-width="3" stroke-dasharray="75 25" stroke-dashoffset="75" id="cirkelBoog"></circle>
                 <g class="temp">
-                    <text id="temperatuur" x="30%" y="54%">19</text>
+                    <text id="temperatuur" x="30%" y="54%";>19</text>
                     <text id="eenheid" x="52%" y="50%">&deg;C</text>
                 </g>
             </svg>
-            <input type="range" min="1" max="30" step="1" value="18" id="thermostaat">
+            <input color="rgba(200,200,200,0.5)" type="range" min="1" max="30" step="1" value="18" id="thermostaat">
             <script>
                 let temperatuur = 19;
                 const temperatuurUitvoer = document.getElementById('temperatuur');
