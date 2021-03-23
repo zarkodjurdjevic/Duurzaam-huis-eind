@@ -1,3 +1,6 @@
+
+
+
 #dashboard {
     display: grid;
     height: 80vh;
@@ -76,8 +79,8 @@
     justify-content: center;
     place-items: center;
     display: flex;
-    width: 70%;
-    margin-left: 30%;
+    width: 75%;
+    margin-left: 17%;
     font-size: 350%;
     background-color: rgb(94, 233, 94);
 }
@@ -92,8 +95,8 @@
     display: flex;
     margin: 4px;
     height: 50vh;
-    width: 70%;
-    margin-left: 30%;
+    width: 75%;
+    margin-left: 17%;
     font-size: 40%;
     border: 4px solid black;
 }
@@ -102,6 +105,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: #57FFD1;
+    margin-top: 0%;
     
     
     
