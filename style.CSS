@@ -175,13 +175,6 @@
     
     
 }
-.apparaat{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 6;
-}
-
 .apparaat {
     padding: 10px;
     background: #12ffeb;
@@ -193,7 +186,10 @@
     background-repeat: no-repeat;
     background-position: 30px center;
     margin: 1%;
-    border: 3px solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
     
 }
 
