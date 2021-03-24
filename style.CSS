@@ -176,6 +176,21 @@
     
 }
 
+.apparaat {
+    padding: 10px;
+    background: #12ffeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    margin: 1%;
+    
+}
+
+
 
  
 
