@@ -186,11 +186,19 @@
     background-repeat: no-repeat;
     background-position: 30px center;
     margin: 1%;
+        
+}
+.telefoon{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 6;
-    
+}
+.televisie{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
 }
 
 

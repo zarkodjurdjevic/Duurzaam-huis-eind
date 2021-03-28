@@ -3,8 +3,14 @@
 {
     "naam": "ps5",
     "vermogen": 5,
-    "image": "foto.jpg",
+    "image": "afb/foto.jpg",
     "code": "ps5"
+},
+{
+    "naam": "televisie",
+    "vermogen": 5,
+    "image": "afb/tv.jpg",
+    "code": "tv"
 }
 
 ]
