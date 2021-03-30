@@ -97,17 +97,16 @@
     font-size: 40%;
     border: 4px solid black;
 }
-
-.blauwbalk {
+.kop{
     grid-column-start: 1;
     grid-column-end: 4;
-    background-color: #57FFD1;
+    margin: 0%;
+    background-color: #12ffeb;
+}
+
+.blauwbalk {
     margin-top: 0%;
-    
-    
-    
-    height: 150%;
-    border: 30px solid  #57FFD1 ;
+    width: 300px;
     text-align: center;
     
 
