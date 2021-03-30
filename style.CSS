@@ -101,6 +101,12 @@
     grid-column-start: 1;
     grid-column-end: 4;
     margin: 0%;
+    background-color: #12ffeb;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .blauwbalk {
