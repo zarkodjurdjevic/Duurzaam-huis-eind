@@ -1,0 +1,14 @@
+/*body {
+    background-color: rgb(5, 121, 141);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}*/
+
+#grafiek1 {
+    background-color: #85fff9;
+    border: 2px dotted #333333;
+    width: 800px;
+    height: 600px;
+}
