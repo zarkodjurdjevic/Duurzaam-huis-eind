@@ -10,6 +10,8 @@
     <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
     <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <link rel="stylesheet" href="weer-functie/style.css">
+    
     
     <script src="js/grafiek.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -30,7 +32,29 @@
         <button class="button3">gas</button>    
         </div>
         <div class="weerbalk">weerbalk</div>
-        <div class="item weer">weer</div>
+        <div class="item weer">
+            <div class="container weer">
+            <div class="app-title">
+                <p>Weather</p>
+            </div>
+            <div class="notification"> </div>
+            <div class="weather-container">
+                <div class="weather-icon">
+                    <img src="weer-functie/icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value">
+                    <p>- °<span>C</span></p>
+                </div>
+                <div class="temperature-description">
+                    <p> - </p>
+                </div>
+                <div class="location">
+                    <p>-</p>
+                </div>
+            </div>
+        </div>
+        <script src="weer-functie/app.js"></script>
+    </div>
         <div class="tempbin-balk">temperatuur binnen</div>
         <div class="item temperatuurbinnen">
             
