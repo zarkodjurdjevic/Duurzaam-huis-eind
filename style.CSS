@@ -308,10 +308,12 @@
 
 .tel1{
     grid-area: app1;
+
 }
 
 .tv1 {
     grid-area: app2;
+
 }
 
 
