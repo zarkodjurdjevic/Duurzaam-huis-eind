@@ -90,6 +90,10 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
 
 }
 
@@ -104,6 +108,10 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
 }
 .weerbalk {
     grid-column-start: 2;
@@ -281,7 +289,7 @@
 
 @media screen and (min-width: 900px){
     .bod1{
-        background-color: rgb(250, 10, 10);
+        
     }
 
     #dashboard {
