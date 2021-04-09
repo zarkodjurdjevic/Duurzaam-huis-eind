@@ -188,6 +188,17 @@
     margin-top: -20%;
     grid-row-start: 3;
     grid-row-end: 4;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.grafiek-kosten{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: -13.7%;
+    
 }
 
 .kosten1{
