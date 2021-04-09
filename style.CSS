@@ -1,15 +1,25 @@
 #dashboard {
+        
     display: grid;
-    height: 80vh;
-    grid-template-columns: 1.3fr 0.7fr 1fr ;
-    grid-template-rows: 100px 1fr 100px;
+    
+    grid-template-columns: 1fr;
+    
+    grid-template-areas: "header"
+                         "standen"
+                         "weer"
+                         "temp"
+                         "kosten"
+                         "app1" 
+                         "app2";
+                                    
     
 }
 
+
+
 .meterstanden {
     
-    grid-column-start: 1;
-    grid-column-end: 2;
+    
     background-color: rgb(255, 255, 255);
     margin: 0%;
     justify-content: center;
@@ -34,6 +44,8 @@
     height: 70%;
     margin-bottom: 71%;
     margin-left: 5%;
+    grid-area: standen;
+    
     
     
     
@@ -78,6 +90,10 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
 
 }
 
@@ -92,6 +108,10 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
 }
 .weerbalk {
     grid-column-start: 2;
@@ -109,10 +129,7 @@
 
 }
 .weer { 
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    
     background-color: aqua;
     margin: 0%;
     justify-content: center;
@@ -122,6 +139,7 @@
     margin-left: 40%;
     width: 70%;
     height: 50vh;
+    grid-area: weer;
     
 
 }
@@ -141,8 +159,7 @@
 }
 
 .temperatuurbinnen {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    
     background-color: rgb(255, 255, 255);
     
     justify-content: center;
@@ -154,11 +171,11 @@
     margin-left: 17%;
     font-size: 40%;
     border: 4px solid black;
+    grid-area: temp;
     
 }
 .kop{
-    grid-column-start: 1;
-    grid-column-end: 4;
+    
     margin: 0%;
     background-color: #12ffeb;
     display: flex;
@@ -166,6 +183,7 @@
     place-items: center;
     align-items: center;
     justify-items: center;
+    grid-area: header;
 }
 
 .blauwbalk {
@@ -193,11 +211,9 @@
 }
 
 .grafiek-kosten{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    
     margin-top: -13.7%;
+    grid-area: kosten;
     
 }
 
@@ -264,49 +280,38 @@
         
 }
 .telefoon{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 6;
+    
+    grid-area: app1;
 }
 .televisie{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 6;
+    grid-area: app2;
 }
 
-/*@media screen and (max-width: 900px){
+@media screen and (min-width: 900px){
     .bod1{
-        background-color: rgb(250, 10, 10);
+        
     }
 
     #dashboard {
-    
+
         
         
         display: grid;
-        grid-template-columns: 50%;
-        
-        grid-template-areas: "header header"
-                         "cost     kwh"
-                         "weather  weather"
-                         "graph    graph"
-                         "controls controls";
-                             
-                             
-    }
+        height: 80vh;
+        grid-template-columns: 1.3fr 0.7fr 1fr ;
+        grid-template-rows: 100px 1fr 100px;
+        grid-template-areas: "header header header"
+                                 "standen weer temp"
+                                 "kosten app1 app2";
 
-    .gegevensmeter {
-        grid-template-columns: 1fr 1fr;
-        background-color: green;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
+    }
+                                            
+            
         
     
-    }
+        
+        
+        
 
     
     
