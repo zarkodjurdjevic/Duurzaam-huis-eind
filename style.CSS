@@ -11,15 +11,12 @@
                          "kosten"
                          "app1" 
                          "app2";
-                                    
-    
-}
+}   
 
-.dashboard{
-    grid-area: standen;
-    
 
-}
+
+
+
 
 
 
@@ -252,7 +249,13 @@
 
 .kst{
     grid-area: kosten;
+<<<<<<< HEAD
     margin-left: 0%;
+=======
+    margin-left: 5%;
+    margin-bottom: 11.5%;
+    margin-top: 1.5%;
+>>>>>>> 4340ca694dabc315b27b36584ffb90fc15738e74
 }
 
 
