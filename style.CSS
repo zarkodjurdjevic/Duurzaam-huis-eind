@@ -303,18 +303,21 @@
     background-position: 30px center;
     margin: 1%;
     
+    
         
 }
 
+
 .tel1{
     grid-area: app1;
-
+   
 }
 
 .tv1 {
     grid-area: app2;
-
+  
 }
+
 
 
 @media screen and (min-width: 900px){
