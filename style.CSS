@@ -50,7 +50,7 @@
     padding-top: 0%;
     
     height: 70%;
-    margin-bottom: 71%;
+    margin-bottom: 61%;
     margin-left: 5%;
     
     
@@ -132,6 +132,7 @@
     width: 70%;
     margin-left: 40%;
     height: 10%;
+    margin-top: -23%;
 
 }
 .weer { 
@@ -190,6 +191,7 @@
     margin-left: 17%;
     font-size: 350%;
     background-color: rgb(94, 233, 94);
+    margin-top: -16%;
 }
 
 .temperatuurbinnen {
@@ -315,17 +317,20 @@
     margin: 1%;
     
     
+    
         
 }
 
 
 .tel1{
     grid-area: app1;
+    margin-top: -15%;
    
 }
 
 .tv1 {
     grid-area: app2;
+    margin-top: -11%;
   
 }
 
