@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(183, 243, 159);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#grafiek {
+    background-color: #c9f680;
+    border: 2px dotted #333333;
+    width: 800px;
+    height: 600px;
+}

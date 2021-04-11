@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(5, 121, 141);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#grafiek {
+    background-color: #85fff9;
+    border: 2px dotted #333333;
+    width: 800px;
+    height: 600px;
+}
+
+.water{
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    color: white;
+}
