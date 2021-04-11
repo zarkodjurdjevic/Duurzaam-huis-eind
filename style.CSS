@@ -29,7 +29,9 @@
     place-items: center;
     display: flex;
     border: 1px solid black;
-    margin-left: 5%;
+    margin-left: 0%;
+    
+    
     
 
     
@@ -46,9 +48,9 @@
     display: flex;
     padding-top: 0%;
     
-    height: 70%;
+    height: 100%;
     margin-bottom: 61%;
-    margin-left: 5%;
+    margin-left: 0%;
     
     
     
@@ -126,7 +128,7 @@
     place-items: center;
     display: flex;
     border: 1px solid black;
-    width: 70%;
+    width: 100%;
     
     height: 10%;
     margin-top: -23%;
@@ -141,7 +143,7 @@
     display: flex;
     margin: 0px;
     
-    width: 70%;
+    width: 100%;
     height: 50vh;
     
     border-right: 1px solid black;
@@ -410,6 +412,46 @@
         margin-left: 30%;
         height: 10%;
         margin-top: -25.6%;
+    
+    }
+    .meterstanden {
+    
+    
+        background-color: rgb(255, 255, 255);
+        margin: 0%;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        border: 1px solid black;
+        margin-left: 5%;
+        
+        
+    
+        
+        
+    }
+    
+    .gegevensmeter {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color:#57FFD1;
+        
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        padding-top: 0%;
+        
+        height: 70%;
+        margin-bottom: 61%;
+        margin-left: 5%;
+        
+        
+        
+        
+        
+        
+        
+        
     
     }
 
