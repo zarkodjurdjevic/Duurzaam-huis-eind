@@ -425,10 +425,7 @@
     }
 
     .weer { 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 127e96de3b77ccf3952e450ba7c2aa26dfcce3e7
+
     
         background-color: aqua;
         
@@ -533,6 +530,7 @@
         border-left: 1px solid black;
         
         
+        
     }
     
 
@@ -555,7 +553,7 @@
         font-size: 200%;
         font-family: 'Courier New', Courier, monospace;
         width: 100%;
-<<<<<<< HEAD
+
         border: 1px solid black;
     }
 
@@ -600,30 +598,10 @@
 
 
 
-=======
->>>>>>> e23855c007d7bdc56db080cc4186941a57a63ea6
-    
-        background-color: aqua;
-        margin: 0%;
-        justify-content: center;
-        place-items: center;
-        display: flex;
-        margin: 0px;
-        margin-left: 30%;
-        width: 70%;
-        height: 50vh;
-        
-        border-right: 1px solid black;
-        border-bottom: 1px solid black;
-        border-left: 1px solid black;
-=======
-        border-top: 1px solid black;
-        height: 32%;
 
->>>>>>> 127e96de3b77ccf3952e450ba7c2aa26dfcce3e7
         
     
-    }
+    
     .weerbalk {
     
         background-color: rgb(255, 255, 255);
