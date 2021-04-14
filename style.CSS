@@ -394,7 +394,7 @@
         margin: 0px;
         margin-left: 6.4%;
         width: 92%;
-        height: 50vh;
+        height: 102%;
         border-right: 1px solid black;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
@@ -478,7 +478,7 @@
         justify-content: center;
         place-items: center;
         display: flex;
-        height: 50vh;
+        height: 84%;
         width: 93.5%;
         margin-left: 6%;
         font-size: 40%;
