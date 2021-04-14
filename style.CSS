@@ -418,6 +418,7 @@
         margin: 1%;
         margin-top: -11%;
         margin-left: 6%;
+        font-family: 'Courier New', Courier, monospace;
         
         
         
@@ -485,6 +486,9 @@
         height: 70%;
         margin-bottom: 61%;
         margin-left: 0%;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
         
         
         
@@ -495,6 +499,7 @@
         
     
     }
+    
 
     .tempbin-balk{
         grid-column-start: 3;
@@ -528,6 +533,7 @@
         border-right: 1px solid black;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
+        border-top: 1px solid black;
         
         
         
@@ -549,12 +555,16 @@
         justify-content: center;
         place-items: center;
         display: flex;
-        height: 10%;
+        height: 32%;
         font-size: 200%;
         font-family: 'Courier New', Courier, monospace;
         width: 100%;
 
+<<<<<<< HEAD
         border: 1px solid black;
+=======
+        
+>>>>>>> a0c260d4784ff7d38649cae7ad6d501915b63678
     }
 
     .b7{
