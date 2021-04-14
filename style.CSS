@@ -188,8 +188,8 @@
     justify-content: center;
     place-items: center;
     display: flex;
-    width: 75%;
-    margin-left: 17%;
+    width: 100%;
+    margin-left: 0%;
     font-size: 350%;
     background-color: rgb(94, 233, 94);
     margin-top: -16%;
@@ -203,8 +203,8 @@
     place-items: center;
     display: flex;
     height: 50vh;
-    width: 75%;
-    margin-left: 17%;
+    width: 100%;
+    margin-left: 0%;
     font-size: 40%;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -253,7 +253,7 @@
 
 .kst{
     grid-area: kosten;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-bottom: 11.5%;
     margin-top: 1.5%;
 }
@@ -362,6 +362,7 @@
 
     .kst{
         margin-top: -20%;
+        margin-left: 0%;
     }
 
     .apparaat {
@@ -376,6 +377,7 @@
         background-position: 30px center;
         margin: 1%;
         margin-top: -11%;
+        margin-left: 6%;
         
         
         
@@ -390,10 +392,9 @@
         place-items: center;
         display: flex;
         margin: 0px;
-        margin-left: 30%;
-        width: 70%;
+        margin-left: 6.4%;
+        width: 92%;
         height: 50vh;
-        
         border-right: 1px solid black;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
@@ -408,8 +409,8 @@
         place-items: center;
         display: flex;
         border: 1px solid black;
-        width: 70%;
-        margin-left: 30%;
+        width: 92%;
+        margin-left: 6.4%;
         height: 10%;
         margin-top: -25.6%;
     
@@ -423,7 +424,8 @@
         place-items: center;
         display: flex;
         border: 1px solid black;
-        margin-left: 5%;
+        margin-left: 0%;
+        font-size: 330%;
         
         
     
@@ -434,16 +436,14 @@
     .gegevensmeter {
         grid-column-start: 1;
         grid-column-end: 2;
-        background-color:#57FFD1;
-        
+        background-color: #57FFD1;
         justify-content: center;
         place-items: center;
         display: flex;
         padding-top: 0%;
-        
         height: 70%;
         margin-bottom: 61%;
-        margin-left: 5%;
+        margin-left: 0%;
         
         
         
@@ -453,6 +453,61 @@
         
         
     
+    }
+
+    .tempbin-balk{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        border: 1px solid black;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        width: 93.5%;
+        margin-left: 6%;
+        font-size: 350%;
+        background-color: rgb(94, 233, 94);
+        margin-top: -16%;
+    }
+    
+    .temperatuurbinnen {
+        
+        background-color: rgb(255, 255, 255);
+        margin-top: -2.1%;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        height: 50vh;
+        width: 93.5%;
+        margin-left: 6%;
+        font-size: 40%;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        
+        
+    }
+
+    .televisie{
+        height: 240%;
+        border: 2px solid black;
+    }
+
+    .telefoon{
+        height: 209%;
+        border: 2px solid black;
+    }
+
+    .kosten{
+        background-color: #72E7FF;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        height: 10%;
+        font-size: 140%;
+        width: 100%;
+        border: 1px solid black;
     }
 
 
