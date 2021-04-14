@@ -351,7 +351,7 @@
         
         
         display: grid;
-        height: 80vh;
+        height: 80%;
         grid-template-columns: 1.3fr 0.7fr 1fr ;
         grid-template-rows: 100px 1fr 100px;
         grid-template-areas: "header header header"
@@ -387,7 +387,7 @@
     .weer { 
     
         background-color: aqua;
-        margin: 0%;
+        
         justify-content: center;
         place-items: center;
         display: flex;
@@ -404,7 +404,7 @@
     .weerbalk {
     
         background-color: rgb(255, 255, 255);
-        margin: 0%;
+        
         justify-content: center;
         place-items: center;
         display: flex;
@@ -468,7 +468,7 @@
         margin-left: 6%;
         font-size: 350%;
         background-color: rgb(94, 233, 94);
-        margin-top: -16%;
+        
     }
     
     .temperatuurbinnen {
