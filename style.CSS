@@ -426,6 +426,9 @@
 
     .weer { 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 127e96de3b77ccf3952e450ba7c2aa26dfcce3e7
     
         background-color: aqua;
         
@@ -501,13 +504,15 @@
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
-        border: 1px solid black;
+        font-family: 'Courier New', Courier, monospace;
         justify-content: center;
         place-items: center;
         display: flex;
         width: 93.5%;
+        height: 12%;
         margin-left: 6%;
-        font-size: 350%;
+        font-size: 200%;
+        border-bottom: 1px solid black;
         background-color: rgb(94, 233, 94);
         
     }
@@ -529,6 +534,7 @@
         
         
     }
+    
 
     .televisie{
         height: 240%;
@@ -546,8 +552,10 @@
         place-items: center;
         display: flex;
         height: 10%;
-        font-size: 140%;
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
         width: 100%;
+<<<<<<< HEAD
         border: 1px solid black;
     }
 
@@ -608,33 +616,40 @@
         border-right: 1px solid black;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
+=======
+        border-top: 1px solid black;
+        height: 32%;
+
+>>>>>>> 127e96de3b77ccf3952e450ba7c2aa26dfcce3e7
         
     
     }
     .weerbalk {
     
         background-color: rgb(255, 255, 255);
-        margin: 0%;
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
         justify-content: center;
         place-items: center;
         display: flex;
         border: 1px solid black;
-        width: 70%;
-        margin-left: 30%;
-        height: 10%;
+        width: 92%;
+        margin-left: 6.4%;
+        height: 12%;
         margin-top: -25.6%;
     
     }
     .meterstanden {
-    
-    
+        font-size: 200%;
+        height: 57%;
+        font-family: 'Courier New', Courier, monospace;
         background-color: rgb(255, 255, 255);
         margin: 0%;
         justify-content: center;
         place-items: center;
         display: flex;
         border: 1px solid black;
-        margin-left: 5%;
+        margin-left: 0%;
         
         
     
@@ -646,7 +661,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
         background-color:#57FFD1;
-        
+        margin-top: -4.9%;
         justify-content: center;
         place-items: center;
         display: flex;
@@ -654,7 +669,7 @@
         
         height: 70%;
         margin-bottom: 61%;
-        margin-left: 5%;
+        margin-left: 0%;
         
         
         
