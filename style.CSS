@@ -131,7 +131,7 @@
     width: 100%;
     
     height: 10%;
-    margin-top: -23%;
+    margin-top: -25%;
 
 }
 .weer { 
@@ -425,6 +425,7 @@
     }
 
     .weer { 
+<<<<<<< HEAD
     
         background-color: aqua;
         
@@ -591,6 +592,82 @@
 
 
 
+=======
+>>>>>>> e23855c007d7bdc56db080cc4186941a57a63ea6
+    
+        background-color: aqua;
+        margin: 0%;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        margin: 0px;
+        margin-left: 30%;
+        width: 70%;
+        height: 50vh;
+        
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        
+    
+    }
+    .weerbalk {
+    
+        background-color: rgb(255, 255, 255);
+        margin: 0%;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        border: 1px solid black;
+        width: 70%;
+        margin-left: 30%;
+        height: 10%;
+        margin-top: -25.6%;
+    
+    }
+    .meterstanden {
+    
+    
+        background-color: rgb(255, 255, 255);
+        margin: 0%;
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        border: 1px solid black;
+        margin-left: 5%;
+        
+        
+    
+        
+        
+    }
+    
+    .gegevensmeter {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color:#57FFD1;
+        
+        justify-content: center;
+        place-items: center;
+        display: flex;
+        padding-top: 0%;
+        
+        height: 70%;
+        margin-bottom: 61%;
+        margin-left: 5%;
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    }
+
+
+
     
 
     
@@ -601,12 +678,3 @@
         
         
 }
-
-
-
-
-
- 
-
-
-
