@@ -541,12 +541,12 @@
     
 
     .televisie{
-        height: 240%;
+        height: 265%;
         border: 2px solid black;
     }
 
     .telefoon{
-        height: 209%;
+        height: 230%;
         border: 2px solid black;
     }
 
@@ -618,8 +618,8 @@
         border: 1px solid black;
         width: 92%;
         margin-left: 6.4%;
-        height: 12%;
-        margin-top: -25.6%;
+        height: 11%;
+        margin-bottom: 0%;
     
     }
     .meterstanden {
